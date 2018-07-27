@@ -1,0 +1,21 @@
+                          -:  Instructions :-
+
+* steps to install program :-
+
+1.dont try to run program directly first read all instructions.
+
+2.double click on "settings" file.this file sets all files in proper place.
+
+3.goto TC and press F3 to open the search box.
+
+4.then type c:\tc\include\paint.cpp and hit enter.program will open.
+
+5.dont try to change name & path of any file otherwise it will be harm.
+
+6.you can "erase" first line of program but dont be "save" at that condition.otherwise it also harm.
+
+7.when program run's then it will ask my name.then enter name.if name is wrong then program is not continue.
+
+8.read all controls & rules of game first then play.
+
+included files ck,ck2,inc,menu
