@@ -1,0 +1,357 @@
+//programmer :- vivek ingole
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<string.h>
+cand()
+{
+rectangle(300,4,620,231);
+line(339,192,339,70);
+line(411,70,411,192);
+line(508,70,508,192);
+line(580,70,580,192);
+ellipse(375,191,12,360,36,10);
+ellipse(544,191,0,360,36,10);
+ellipse(375,72,1,362,36,11);
+ellipse(545,71,0,360,36,11);
+ellipse(376,36,0,360,25,8);
+arc(302,37,316,365,50);
+arc(450,38,175,222,50);
+arc(470,37,318,366,50);
+ellipse(545,33,-5,359,25,8);
+arc(619,38,170,221,50);
+settextstyle(8,0,2);
+outtextxy(356,200,"cow");
+outtextxy(505,199,"buffelo");
+}
+dairy()
+{
+ settextstyle(10,0,7);
+outtextxy(185,280,"Dairy");
+line(178,287,178,287);
+line(185,393,204,388);
+line(220,385,235,382);
+line(253,378,293,368);
+line(307,366,320,362);
+line(337,359,363,353);
+line(379,349,392,347);
+setfillstyle(1,5);
+floodfill(190,335,15);
+setfillstyle(1,5);
+floodfill(260,355,15);
+setfillstyle(1,5);
+floodfill(315,355,15);
+setfillstyle(1,5);
+floodfill(315,330,15);
+setfillstyle(1,5);
+floodfill(355,350,15);
+setfillstyle(1,5);
+floodfill(385,345,15);
+setfillstyle(1,4);
+floodfill(385,360,15);
+setfillstyle(1,4);
+floodfill(345,360,15);
+setfillstyle(1,4);
+floodfill(315,375,15);
+setfillstyle(1,4);
+floodfill(285,375,15);
+setfillstyle(1,4);
+floodfill(225,390,15);
+setfillstyle(1,15);
+
+}
+flower()
+{
+  arc(649,481,55,237,86);
+arc(2,481,-46,114,80);
+ellipse(605,158,-9,350,-1,25);
+line(474,483,474,495);
+line(568,486,486,487);
+line(565,488,506,488);
+circle(573,413,16);
+circle(618,384,16);
+circle(612,357,11);
+circle(608,337,8);
+circle(548,461,16);
+circle(555,392,11);
+circle(541,379,8);
+circle(520,459,11);
+circle(500,456,8);
+arc(648,480,396,575,76);
+arc(-7,488,-47,133,81);
+circle(22,386,16);
+circle(96,460,16);
+circle(70,413,16);
+circle(27,359,11);
+circle(31,340,8);
+circle(122,458,11);
+circle(141,457,8);
+circle(91,396,11);
+circle(106,384,8);
+circle(604,325,4);
+circle(531,371,4);
+circle(487,454,4);
+circle(33,328,4);
+circle(115,376,4);
+circle(154,455,4);
+setfillstyle(1,15);
+floodfill(605,325,15);
+setfillstyle(1,15);
+floodfill(530,370,15);
+setfillstyle(1,15);
+floodfill(485,455,15);
+setfillstyle(1,15);
+floodfill(155,455,15);
+setfillstyle(1,15);
+floodfill(115,375,15);
+setfillstyle(1,15);
+floodfill(35,330,15);
+setfillstyle(1,4);
+floodfill(545,455,15);
+setfillstyle(1,4);
+floodfill(570,420,15);
+setfillstyle(1,4);
+floodfill(615,390,15);
+setfillstyle(1,5);
+floodfill(615,360,15);
+setfillstyle(1,5);
+floodfill(555,385,15);
+setfillstyle(1,5);
+floodfill(520,455,15);
+setfillstyle(1,2);
+floodfill(500,455,15);
+setfillstyle(1,2);
+floodfill(545,380,15);
+setfillstyle(1,2);
+floodfill(610,340,15);
+setfillstyle(1,2);
+floodfill(110,385,15);
+setfillstyle(1,2);
+floodfill(145,460,15);
+setfillstyle(1,2);
+floodfill(30,340,15);
+setfillstyle(1,5);
+floodfill(30,355,15);
+setfillstyle(1,5);
+floodfill(90,400,15);
+setfillstyle(1,5);
+floodfill(125,460,15);
+setfillstyle(1,4);
+floodfill(100,460,15);
+setfillstyle(1,4);
+floodfill(80,415,15);
+setfillstyle(1,4);
+floodfill(20,390,15);
+setfillstyle(1,4);
+floodfill(570,420,15);
+setfillstyle(1,14);
+floodfill(615,405,15);
+setfillstyle(1,14);
+floodfill(15,405,15);
+setfillstyle(1,1);
+floodfill(15,430,15);
+setfillstyle(1,2);
+floodfill(15,430,15);
+setfillstyle(1,3);
+floodfill(15,430,15);
+setfillstyle(1,4);
+floodfill(15,430,15);
+setfillstyle(1,6);
+floodfill(15,430,15);
+setfillstyle(1,7);
+floodfill(15,430,15);
+setfillstyle(1,8);
+floodfill(15,430,15);
+setfillstyle(1,14);
+floodfill(15,430,15);
+setfillstyle(1,5);
+floodfill(15,430,15);
+setfillstyle(1,5);
+floodfill(610,430,15);
+line(527,367,521,361);
+line(603,321,601,310);
+line(483,453,472,451);
+line(34,324,37,313);
+line(118,374,129,366);
+line(159,454,171,453);
+setfillstyle(1,15);
+}
+menu()
+
+{
+outtextxy(10,20,"name :- ");
+rectangle(105,30,280,48);
+outtextxy(10,50,"milk :- ");
+line(10,78,60,78);
+outtextxy(10,80,"(c)ow");
+outtextxy(120,80,"(b)uffelo");
+circle(85,99,7);
+circle(235,99,7);
+outtextxy(10,115,"Quantity :-");
+rectangle(140,125,200,145);
+outtextxy(10,140,"Rate :-");
+line(10,168,60,168);
+outtextxy(10,170,"1) cow = 30/-");
+outtextxy(10,200,"2) buffelo = 40/-");
+outtextxy(10,245,"Total :-");
+rectangle(100,252,170,272);
+ dairy();
+ flower();
+ }
+main(){
+clrscr();
+int d=0,m,n=0,i,j,x1=339,y1=192,x2=411,y2=192,x3=508,x4=580,cow=0,buff=0;
+float qty;
+char milk,name[20],array[10];
+initgraph(&d,&m,"c:\\tc\\bgi");
+cand();
+menu();
+for(j=1;j<=10;j++)
+{
+
+gotoxy(15,3);
+scanf("%s",&name);
+if(strcmp(name,"exit")==0)
+{
+  goto exit;
+}
+milk=getche();
+if(milk=='c')
+{
+setfillstyle(1,2);
+floodfill(85,99,15);
+}
+else if(milk=='b')
+{
+setfillstyle(1,2);
+floodfill(235,99,15);
+}
+setfillstyle(1,15);
+gotoxy(19,9);
+scanf("%f",&qty);
+ if(qty>40)
+  qty=40.00;
+if(j>=2)
+{
+    settextstyle(8,0,1);
+setcolor(0);
+sprintf(array,"(%d)",cow);
+outtextxy(400,200,array);
+sprintf(array,"(%d)",buff);
+outtextxy(585,199,array);
+setcolor(15);
+}
+
+n=qty;
+if(n>40)
+{
+ n=40;
+}
+    if(milk=='c')
+    {
+	 cow=cow+n;
+    }
+    else if(milk=='b')
+    {
+     buff=buff+n;
+    }
+
+   for(i=1;i<=(n*3);i++)
+{
+    if(milk=='c')
+    {
+    floodfill(345,192,15);
+   line(x1,y1-i,x2,y1-i);
+   line(x1,y1-i-1,x2,y1-i-1);
+   line(x1,y1-i-2,x2,y1-i-2);
+     }
+     else if(milk=='b')
+     {
+    floodfill(510,192,15);
+    line(x3,y2-i,x4,y2-i);
+   line(x3,y2-i-1,x4,y2-i-1);
+   line(x3,y2-i-2,x4,y2-i-2);
+     }
+}    i--;
+if(milk=='c')
+{
+  gotoxy(15,17);
+  printf("%.2f",qty*30.00);
+}
+else if(milk=='b')
+{
+  gotoxy(15,17);
+  printf("%.2f",qty*40.00);
+}
+    settextstyle(8,0,1);
+sprintf(array,"(%d)",cow);
+outtextxy(400,200,array);
+sprintf(array,"(%d)",buff);
+outtextxy(585,199,array);
+setcolor(15);
+
+getch();
+gotoxy(19,9);
+printf("       ");
+setfillstyle(1,0);
+floodfill(85,99,15);
+floodfill(235,99,15);
+setfillstyle(1,15);
+gotoxy(15,3);
+printf("                    ");
+ gotoxy(15,17);
+printf("       ");
+if(milk=='c')
+y1=y1-i;
+else if(milk=='b')
+y2=y2-i;
+
+      if(cow==40||cow==80||cow==120||cow==160||cow==200)
+      {
+	 for(i=1;i<=120;i++)
+	{   setcolor(0);
+	   line(x1+1,192-i,x2-1,192-i);
+	   line(x1+1,192-i-1,x2-1,192-i-1);
+	   line(x1+1,192-i-2,x2-1,192-i-2);
+	 }
+	 line(341,191,409,191);
+	line(341,192,409,192);
+	line(342,193,408,193);
+	line(343,194,407,194);
+	line(344,195,406,195);
+	line(345,196,405,196);
+	line(348,197,402,197);
+	line(352,198,398,198);
+	line(357,199,393,199);
+	line(364,200,386,200);
+	setcolor(15);
+	 ellipse(375,72,0,360,36,11);
+	ellipse(375,191,0,360,36,10);
+	 y1=192;
+       }
+       else if(buff==40||buff==80||buff==120||buff==160)
+       {
+		 for(i=1;i<=120;i++)
+		{   setcolor(0);
+	    line(x3+1,192-i,x4-1,192-i);
+	   line(x3+1,192-i-1,x4-1,192-i-1);
+	   line(x3+1,192-i-2,x4-1,192-i-2);
+	     }
+	    line(510,192,578,192);
+	line(511,193,577,193);
+	line(512,194,576,194);
+	line(513,195,575,195);
+	line(514,196,574,196);
+	line(517,197,571,197);
+	line(521,198,567,198);
+	line(526,199,562,199);
+	line(533,200,555,200);
+	setcolor(15);
+	ellipse(544,191,0,360,36,10);
+	ellipse(545,71,0,360,36,11);
+	 y2=192;
+      }
+} //end of main for loop
+getch();
+exit:
+}
